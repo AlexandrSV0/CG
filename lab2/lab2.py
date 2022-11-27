@@ -27,7 +27,6 @@ for i in range(1, 9):
     v_sec= np.vstack([v_sec, [x, y, 1.5]])
 
 ax.scatter3D(v[:, 0], v[:, 1], v[:, 2]) 
-# ax.scatter3D(v_sec[:, 0], v_sec[:, 1], v_sec[:, 2])    
    
 # стороны пирамиды
 verts = [[v[1],v[2],v[3],v[4],v[5],v[6],v[7], v[8]], [v_sec[1], v_sec[2],v_sec[3],v_sec[4],v_sec[5],v_sec[6],v_sec[7],v_sec[8]], 

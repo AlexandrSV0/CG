@@ -3,10 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import TextBox
 
-num_a = int(input("Введите константу A: "))
-num_B = int(input("Введите константу B: "))
-num = int(input("Введите количество точек графика: "))
-
+# num_a = int(input("Введите константу A: "))
+num_a = 0.5
+# num_B = int(input("Введите константу B: "))
+num_B = 3
+# num = int(input("Введите количество точек графика: "))
+num = 50
 plt.title('$y^2 = x^3 / (x - a)$')
 plt.xlabel('x')
 plt.ylabel('y')
