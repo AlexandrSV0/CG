@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import TextBox
 
 # num_a = int(input("Введите константу A: "))
-num_a = 0.5
+num_a = 1
 # num_B = int(input("Введите константу B: "))
 num_B = 3
 # num = int(input("Введите количество точек графика: "))
